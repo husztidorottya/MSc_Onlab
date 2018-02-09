@@ -1,8 +1,9 @@
 # MSc_Onlab
 
 train:
+```
 python3 train_uj.py <input data file> <experiment number> '<morph. tag separator>' <source morph tags place in line> <target morph tags place in line>
-  
+```  
   Ha forrás vagy cél morfológiai tag nincs az adott bemeneten, akkor helyette -1 írandó.
   
 test:
